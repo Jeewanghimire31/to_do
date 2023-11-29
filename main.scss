@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 90%;
+    padding: 1rem;
+    h1{
+        text-align: center;
+    }
+
+    #taskInput {
+        border: none;
+        outline: none;
+        padding: 1rem;
+        width: 70%;
+        margin: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        
+    }
+
+    #inputSection{
+        border: none;
+        outline: none;
+        width: 70%;
+        margin: 1rem;
+        padding: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        
+    }
+
+    button{
+        outline: none;
+        appearance: none;
+        padding: 1rem;
+        background-color: aquamarine;
+        border: none;
+        border-radius: 8px;
+    }
+
+    .todo_list{
+        margin-top: 1rem;
+        display: flex;
+        // flex-direction: column;
+        justify-content: space-around;
+        gap: 20rem;
+
+        h2{
+            background-color: #959e9b;
+            border-radius: 8px;
+            padding: 0.3rem;
+            color: #fff;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        
+    }
+
+    ul{
+        
+        li{
+            padding: 1rem;
+            list-style: none;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+            font-size: 25px;
+
+
+            display: flex;
+            justify-content: space-between;
+
+
+            input{
+                width: 20px;
+            }
+        }
+    }
+
+
+    .remaining_todos{
+        width: 100%;
+        h2{
+            background-color: rgb(159, 144, 144); 
+        }
+        
+       
+    }
+
+    .completed_todos{
+        width: 100%;
+        h2{
+            background-color: rgb(159, 144, 144);
+           
+        }
+    }
+}
+
+
+
+
