@@ -85,6 +85,8 @@ updateTaskList();
 const remainingTodo = document.getElementById("remaining_todos");
 const completedTodo = document.getElementById("completed_todos");
 
+
+remainingTodo.children[1].style.display = 'block';
 // for remaining tasks
 remainingTodo.addEventListener('click', ()=>{
     // Adding class to div element 
